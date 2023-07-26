@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		BA5F0CAA2A71D67F00373CEF /* DatePlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CA92A71D67F00373CEF /* DatePlannerApp.swift */; };
-		BA5F0CAC2A71D67F00373CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CAB2A71D67F00373CEF /* ContentView.swift */; };
 		BA5F0CAE2A71D67F00373CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5F0CAD2A71D67F00373CEF /* Assets.xcassets */; };
 		BA5F0CB12A71D67F00373CEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5F0CB02A71D67F00373CEF /* Preview Assets.xcassets */; };
+		BA5F0CB82A71D86200373CEF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CB72A71D86200373CEF /* Event.swift */; };
+		BA5F0CBA2A71D8B100373CEF /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CB92A71D8B100373CEF /* EventTask.swift */; };
+		BA5F0CBC2A71D8DE00373CEF /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CBB2A71D8DE00373CEF /* EventData.swift */; };
+		BA5F0CBE2A71D91B00373CEF /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CBD2A71D91B00373CEF /* EventList.swift */; };
+		BA5F0CC02A71DAD000373CEF /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CBF2A71DAD000373CEF /* ColorOption.swift */; };
+		BA5F0CC22A71DB1F00373CEF /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CC12A71DB1F00373CEF /* EventSymbols.swift */; };
+		BA5F0CC42A71DB7100373CEF /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CC32A71DB7100373CEF /* EventEditor.swift */; };
+		BA5F0CC62A71DBA900373CEF /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CC52A71DBA900373CEF /* EventRow.swift */; };
+		BA5F0CC82A71DC0300373CEF /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CC72A71DC0300373CEF /* EventDetail.swift */; };
+		BA5F0CCA2A71DC4600373CEF /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CC92A71DC4600373CEF /* SFSymbolStyling.swift */; };
+		BA5F0CCC2A71DC8A00373CEF /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CCB2A71DC8A00373CEF /* TaskRow.swift */; };
+		BA5F0CCE2A71DE3B00373CEF /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F0CCD2A71DE3B00373CEF /* SymbolPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA5F0CA62A71D67F00373CEF /* DatePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5F0CA92A71D67F00373CEF /* DatePlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerApp.swift; sourceTree = "<group>"; };
-		BA5F0CAB2A71D67F00373CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA5F0CAD2A71D67F00373CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5F0CB02A71D67F00373CEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA5F0CB72A71D86200373CEF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BA5F0CB92A71D8B100373CEF /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		BA5F0CBB2A71D8DE00373CEF /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		BA5F0CBD2A71D91B00373CEF /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		BA5F0CBF2A71DAD000373CEF /* ColorOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		BA5F0CC12A71DB1F00373CEF /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		BA5F0CC32A71DB7100373CEF /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		BA5F0CC52A71DBA900373CEF /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		BA5F0CC72A71DC0300373CEF /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		BA5F0CC92A71DC4600373CEF /* SFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		BA5F0CCB2A71DC8A00373CEF /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		BA5F0CCD2A71DE3B00373CEF /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +74,18 @@
 			isa = PBXGroup;
 			children = (
 				BA5F0CA92A71D67F00373CEF /* DatePlannerApp.swift */,
-				BA5F0CAB2A71D67F00373CEF /* ContentView.swift */,
+				BA5F0CB72A71D86200373CEF /* Event.swift */,
+				BA5F0CB92A71D8B100373CEF /* EventTask.swift */,
+				BA5F0CBB2A71D8DE00373CEF /* EventData.swift */,
+				BA5F0CBD2A71D91B00373CEF /* EventList.swift */,
+				BA5F0CBF2A71DAD000373CEF /* ColorOption.swift */,
+				BA5F0CC12A71DB1F00373CEF /* EventSymbols.swift */,
+				BA5F0CC32A71DB7100373CEF /* EventEditor.swift */,
+				BA5F0CC52A71DBA900373CEF /* EventRow.swift */,
+				BA5F0CC92A71DC4600373CEF /* SFSymbolStyling.swift */,
+				BA5F0CC72A71DC0300373CEF /* EventDetail.swift */,
+				BA5F0CCB2A71DC8A00373CEF /* TaskRow.swift */,
+				BA5F0CCD2A71DE3B00373CEF /* SymbolPicker.swift */,
 				BA5F0CAD2A71D67F00373CEF /* Assets.xcassets */,
 				BA5F0CAF2A71D67F00373CEF /* Preview Content */,
 			);
@@ -137,8 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA5F0CAC2A71D67F00373CEF /* ContentView.swift in Sources */,
+				BA5F0CC22A71DB1F00373CEF /* EventSymbols.swift in Sources */,
+				BA5F0CCE2A71DE3B00373CEF /* SymbolPicker.swift in Sources */,
+				BA5F0CBE2A71D91B00373CEF /* EventList.swift in Sources */,
+				BA5F0CC42A71DB7100373CEF /* EventEditor.swift in Sources */,
+				BA5F0CB82A71D86200373CEF /* Event.swift in Sources */,
+				BA5F0CCC2A71DC8A00373CEF /* TaskRow.swift in Sources */,
+				BA5F0CCA2A71DC4600373CEF /* SFSymbolStyling.swift in Sources */,
+				BA5F0CC82A71DC0300373CEF /* EventDetail.swift in Sources */,
+				BA5F0CBC2A71D8DE00373CEF /* EventData.swift in Sources */,
 				BA5F0CAA2A71D67F00373CEF /* DatePlannerApp.swift in Sources */,
+				BA5F0CC62A71DBA900373CEF /* EventRow.swift in Sources */,
+				BA5F0CBA2A71D8B100373CEF /* EventTask.swift in Sources */,
+				BA5F0CC02A71DAD000373CEF /* ColorOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
